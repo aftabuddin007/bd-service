@@ -15,12 +15,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link rel="stylesheet" href="./style/styles.css"> -->
 
 <!-- <link rel="stylesheet" href="./style/styles.css"> -->
 </head>
 <body class="bg-[#F5FFF6]">
     <!-- navber section -->
-   <section class="navber flex justify-between bg-[white] h-[100px] px-[60px]">
+   <section class=" my-5  navber flex flex-col my-4 md:flex-row justify-between bg-[white] h-[100px] px-[60px]  ">
     <div class="nav-logo flex gap-5 items-center">
         <img src="./assets/logo.png" alt="" class="h-[50px] w-[50px]" >
         <h2 class="text-xl font-bold text-[#006747]">Emergency <br>Service</h2>
@@ -38,22 +39,22 @@
     </div>
    </section>               
    <!-- banner section -->
-    <section class="banner mx-auto text-center flex flex-col items-center gap-4  h-[] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-[20px]">
+    <section class="banner mx-auto text-center flex flex-col items-center gap-4  h-[] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-[20px] ">
           <img src="./assets/logo-dark.png" alt="" class="h-[92px] w-[92px]">  
            <h2 class="text-[40px] font-bold text-[#ffffff]">Emergency Service Directory</h2>
            <p class="text-[16px] text-[#ffffff]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p> 
     </section>
     <!-- service section -->
-     <section class="service  flex justify-between max-w-[1440px] mx-auto mt-12 p-[62px] gap-[30px]">
+     <section class=" service  flex flex-col md:flex-row justify-between max-w-[1440px] mx-auto mt-12 p-[62px] gap-[30px] ">
           <!-- card container -->
-        <div class="card-container grid grid-cols-3 gap-[30px] w-[1000px]">
-            <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
+        <div class="w-full md:w-[1000px] card-container grid grid-cols-1 md:grid-cols-3  gap-[30px]  ">
+            <div class=" card h-[] bg-[White] w-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"></div>
                 <i class="fa-solid fa-heart"></i>
             </div>
             <div>
-                <h3 class="text-[20px] font-bold">National Emergency Number</h3>
+                <h3 class="text-[20px] font-bold ">National Emergency Number</h3>
             <p class="text-[16px] text-[Gray] mb-5">National Emergency</p>
         </div>
         <div>
@@ -61,8 +62,8 @@
             <span class="text-[18px] text-[gray]   bg-[#F2F2F2]   px-3 py-2  rounded-[20px] ">All</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]  w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -79,8 +80,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">Police</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -97,8 +98,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">Fire</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -115,8 +116,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">Health</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -133,8 +134,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">Help</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -151,8 +152,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">Govt.</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -169,8 +170,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">Electricity</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -187,8 +188,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">NGO</span>
         </div>
         <div class="flex justify-around gap-4 mt-5">
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
@@ -205,8 +206,8 @@
             <span class="text-[18px] text-[gray]  p-4 bg-[#F2F2F2] mb-5  px-3 py-2 rounded-[20px] ">Travel</span>
         </div>
         <div class="flex justify-around gap-4 mt-5" >
-            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px]"><i class="fa-solid fa-copy"></i> Copy</button>
-            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px]"><i class="fa-solid fa-phone"></i> Call</button>
+            <button class="text-[16px] text-[Gray] p-4 border-2 border-black-300  rounded-[10px] w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+            <button class="bg-[#00A63E] text-[white] font-semibold p-4 rounded-[10px] text-[16px] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
           </div>
             
@@ -215,7 +216,7 @@
           </div>
         </div>
           <!-- history section -->
-          <div class="history-section w-[350px] shadow-lg bg-[white] p-6 rounded-[12px] ">
+          <div class="w-full md:w-[300px] history-section w-[350px] shadow-lg bg-[white] p-6 rounded-[12px] ">
             <div class="flex  justify-between  ">
                 <div class="flex gap-2 items-center">
                     <i class="fa-solid fa-clock"></i>
@@ -226,4 +227,4 @@
           </div>
      </section>
 </body>
-</html>
+</html>d
