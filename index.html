@@ -28,7 +28,7 @@
     </div>
     <div class="left-nav flex gap-5 items-center mb-4">
         <div class="flex gap-2 px-3 py-2 bg-[#41FF6B1A] rounded-[50px]">
-            <p class="text-[16px] font-semibold"><span> 0</span></p>
+            <p id="heart-count" class="text-[16px] font-semibold"> 0</p>
         <img src="./assets/heart.png" alt="" class="h-[30px] w-[30px]">
     </div>
         <div class="flex gap-2 px-3 py-2 bg-[#41FF6B1A] rounded-[40px] items-center">
@@ -51,7 +51,7 @@
             <div class="card h-[] bg-[White] w-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart1" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold ">National Emergency Number</h3>
@@ -69,7 +69,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#DFEFFF] rounded-[12px]"><img src="./assets/police.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart2" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] mb-6 font-bold">Police Helpline Number</h3>
@@ -87,7 +87,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/fire-service.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart3" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold mb-6">Fire Service Number</h3>
@@ -105,7 +105,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/ambulance.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart4" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold mb-6">Ambulance Service</h3>
@@ -123,7 +123,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/brac.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart5" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold">Women & Child Helpline</h3>
@@ -141,7 +141,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart6" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold">Anti-Corruption Helpline</h3>
@@ -159,7 +159,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart7" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold mb-6">Electricity Helpline</h3>
@@ -177,7 +177,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/brac.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart8" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold mb-6">Brac Helpline</h3>
@@ -195,7 +195,7 @@
             <div class="card w-[] bg-[White] h-[] p-[32px] shadow-lg rounded-[12px]">
             <div class="flex justify-between items-center">
                 <div class="p-5 bg-[#FFE3E2] rounded-[12px]"><img src="./assets/Bangladesh-Railway.png" alt="" class="h-[32px] w-[32px]"></div>
-                <i class="fa-solid fa-heart"></i>
+                <i id="heart9" class="fa-solid fa-heart"></i>
             </div>
             <div>
                 <h3 class="text-[20px] font-bold">Bangladesh Railway Helpline </h3>
@@ -226,5 +226,6 @@
             </div>
           </div>
      </section>
+     <script src="./main/script.js"></script>
 </body>
 </html>
