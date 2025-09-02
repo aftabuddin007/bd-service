@@ -319,3 +319,150 @@ document.getElementById("clear-history").addEventListener("click", function() {
     // console.log("Clear history clicked");
     document.getElementById("history2").innerText = "";
 });
+//copy
+document.getElementById("copy-btn1").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+    const text = document.getElementById("emergency-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn2").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+    const text = document.getElementById("police-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn3").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+    const text = document.getElementById("fire-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn4").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+    const text = document.getElementById("ambulance-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn5").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+    const text = document.getElementById("women-child-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn6").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+    const text = document.getElementById("anti-corruption-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn7").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+    const text = document.getElementById("electricity-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn8").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+
+    const text = document.getElementById("brac-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
+document.getElementById("copy-btn9").addEventListener("click", async() =>{
+    
+    let copyCount = document.getElementById("copy-count");
+    let count = parseInt(copyCount.textContent);
+    count++;
+    copyCount.textContent = count;
+
+
+    const text = document.getElementById("bangladesh-railway-number").textContent;
+    try{
+        await navigator.clipboard.writeText(text);
+        alert("Copied: " + text);
+    } catch (err) {
+        console.error("Failed to copy: ", text);
+    }
+    
+}); 
