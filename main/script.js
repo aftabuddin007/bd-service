@@ -75,7 +75,7 @@ function historyData1(name,call,date){
         div.innerHTML = `
         <div class="flex justify-between items-center   p-4">
                 <div>
-                <h class="font-semibold text-[14px]">${name}</h>
+                <h class="font-semibold  text-[14px]">${name}</h>
                 <p class="text-[12px] text-[gray]">${call}</p>
                 </div>
                 <p class="text-[12px] font-semibold">${date}</p>
